@@ -46,9 +46,9 @@ This project use App Router provided by NextJS. For more information, you can re
 - `folder/folder` - Nested route segment
 
 ### Dynamic Routes
-- [folder] - Dynamic route segment
-- [...folder] - catch-all route segment
-- [[...folder]] - Optional catch-all route segment
+- `[folder]` - Dynamic route segment
+- `[...folder]` - catch-all route segment
+- `[[...folder]]` - Optional catch-all route segment
 
 For example we want to create a `page` with a path `/auth/register`, `app/(pages)/auth/register/page.jsx` should **exist**. (Note: without `page.jsx` a folder is not routable)
 
