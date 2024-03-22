@@ -52,6 +52,10 @@ This project use App Router provided by NextJS. For more information, you can re
 
 For example we want to create a `page` with a path `/auth/register`, `app/(pages)/auth/register/page.jsx` should **exist**. (Note: without `page.jsx` a folder is not routable)
 
+## 
+
 If in need for clarification, feel free to ask.
+
+##
 
 JN
