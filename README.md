@@ -23,7 +23,9 @@ Inside our app folder, we have these directories:
 - `lib` - contains the utils.js ShadCN use **(No need to modify)**.
 - `styles` - contains all the css files.
 
-`public` - contains all the static assets (logos, gifs, fonts). 
+`public` - contains all the static assets (logos, gifs, fonts).
+
+We are using aliases for our directories. We can simply use `@/{folderInApp}` to access folders or files under the `himati-website/app` directory.
 
 ## `app` Routing conventions
 
