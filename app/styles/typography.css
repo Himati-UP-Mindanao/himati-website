@@ -1,0 +1,288 @@
+/*FOR LOGO: Acronym bold*/
+/*h1*/
+@font-face {
+    font-family: 'Acronym';
+    src: url('../../public/fonts/Acronym/ACRONYM\ BOLD.woff2') format('woff2');
+    font-weight: 700;
+    font-size: 50px;
+}
+
+/*h2*/
+@font-face {
+    font-family: 'Acronym';
+    src: url('../../public/fonts/Acronym/ACRONYM\ BOLD.woff2') format('woff2');
+    font-weight: 700;
+    font-size: 38px;
+}
+
+/*h3*/
+@font-face {
+    font-family: 'Acronym';
+    src: url('../../public/fonts/Acronym/ACRONYM\ BOLD.woff2') format('woff2');
+    font-weight: 600;
+    font-size: 28px;
+}
+
+/*h4*/
+@font-face {
+    font-family: 'Acronym';
+    src: url('../../public/fonts/Acronym/ACRONYM\ BOLD.woff2') format('woff2');
+    font-weight: 600;
+    font-size: 21px;
+}
+
+/*h5*/
+@font-face {
+    font-family: 'Acronym';
+    src: url('../../public/fonts/Acronym/ACRONYM\ BOLD.woff2') format('woff2');
+    font-weight: 700;
+    font-size: 12px;
+}
+
+/*p*/
+@font-face {
+    font-family: 'Acronym';
+    src: url('../../public/fonts/Acronym/ACRONYM\ BOLD.woff2') format('woff2');
+    font-weight: 400;
+    font-size: 14px;
+}
+
+/*small*/
+@font-face {
+    font-family: 'Acronym';
+    src: url('../../public/fonts/Acronym/ACRONYM\ BOLD.woff2') format('woff2');
+    font-weight: 400;
+    font-size: 12px;
+}
+
+/************************/
+
+/*FOR BODY: Acronym regular*/
+/*h1*/
+@font-face {
+    font-family: 'Acronym';
+    src: url('../../public/fonts/Acronym/ACRONYM\ REGULAR.woff2') format('woff2');
+    font-weight: 700;
+    font-size: 50px;
+}
+
+/*h2*/
+@font-face {
+    font-family: 'Acronym';
+    src: url('../../public/fonts/Acronym/ACRONYM\ REGULAR.woff2') format('woff2');
+    font-weight: 700;
+    font-size: 38px;
+}
+
+/*h3*/
+@font-face {
+    font-family: 'Acronym';
+    src: url('../../public/fonts/Acronym/ACRONYM\ REGULAR.woff2') format('woff2');
+    font-weight: 600;
+    font-size: 28px;
+}
+
+/*h4*/
+@font-face {
+    font-family: 'Acronym';
+    src: url('../../public/fonts/Acronym/ACRONYM\ REGULAR.woff2') format('woff2');
+    font-weight: 600;
+    font-size: 21px;
+}
+
+/*h5*/
+@font-face {
+    font-family: 'Acronym';
+    src: url('../../public/fonts/Acronym/ACRONYM\ REGULAR.woff2') format('woff2');
+    font-weight: 700;
+    font-size: 12px;
+}
+
+/*p*/
+@font-face {
+    font-family: 'Acronym';
+    src: url('../../public/fonts/Acronym/ACRONYM\ REGULAR.woff2') format('woff2');
+    font-weight: 400;
+    font-size: 14px;
+}
+
+/*small*/
+@font-face {
+    font-family: 'Acronym';
+    src: url('../../public/fonts/Acronym/ACRONYM\ REGULAR.woff2') format('woff2');
+    font-weight: 400;
+    font-size: 12px;
+}
+
+/************************/
+
+/*FOR LABELS: Guardian Egyptian Display Medium*/
+/*h1*/
+@font-face {
+    font-family: 'Guardian Egyptian';
+    src: url('../../public/fonts/Guardian\ Egyptian/GuardEgyptianDisp-Medium.woff2') format('woff2');
+    font-weight: 400;
+    font-size: 50px;
+}
+
+/*h2*/
+@font-face {
+    font-family: 'Guardian Egyptian';
+    src: url('../../public/fonts/Guardian\ Egyptian/GuardEgyptianDisp-Medium.woff2') format('woff2');
+    font-weight: 400;
+    font-size: 38px;
+}
+
+/*h3*/
+@font-face {
+    font-family: 'Guardian Egyptian';
+    src: url('../../public/fonts/Guardian\ Egyptian/GuardEgyptianDisp-Medium.woff2') format('woff2');
+    font-weight: 400;
+    font-size: 28px;
+}
+
+/*h4*/
+@font-face {
+    font-family: 'Guardian Egyptian';
+    src: url('../../public/fonts/Guardian\ Egyptian/GuardEgyptianDisp-Medium.woff2') format('woff2');
+    font-weight: 400;
+    font-size: 21px;
+}
+
+/*h5*/
+@font-face {
+    font-family: 'Guardian Egyptian';
+    src: url('../../public/fonts/Guardian\ Egyptian/GuardEgyptianDisp-Medium.woff2') format('woff2');
+    font-weight: 400;
+    font-size: 12px;
+}
+
+/*p*/
+@font-face {
+    font-family: 'Guardian Egyptian';
+    src: url('../../public/fonts/Guardian\ Egyptian/GuardEgyptianDisp-Medium.woff2') format('woff2');
+    font-weight: 400;
+    font-size: 16px;
+}
+
+/*small*/
+@font-face {
+    font-family: 'Guardian Egyptian';
+    src: url('../../public/fonts/Guardian\ Egyptian/GuardEgyptianDisp-Medium.woff2') format('woff2');
+    font-weight: 400;
+    font-size: 12px;
+}
+
+/*FOR TITLES: Guardian Egyptian Text Medium*/
+/*h1*/
+@font-face {
+    font-family: 'Guardian Egyptian';
+    src: url('../../public/fonts/Guardian\ Egyptian/GUARDIANTEXTEGYPT-MEDIUM.woff2') format('woff2');
+    font-weight: 400;
+    font-size: 50px;
+}
+
+/*h2*/
+@font-face {
+    font-family: 'Guardian Egyptian';
+    src: url('../../public/fonts/Guardian\ Egyptian/GUARDIANTEXTEGYPT-MEDIUM.woff2') format('woff2');
+    font-weight: 400;
+    font-size: 38px;
+}
+
+/*h3*/
+@font-face {
+    font-family: 'Guardian Egyptian';
+    src: url('../../public/fonts/Guardian\ Egyptian/GUARDIANTEXTEGYPT-MEDIUM.woff2') format('woff2');
+    font-weight: 400;
+    font-size: 28px;
+}
+
+/*h4*/
+@font-face {
+    font-family: 'Guardian Egyptian';
+    src: url('../../public/fonts/Guardian\ Egyptian/GUARDIANTEXTEGYPT-MEDIUM.woff2') format('woff2');
+    font-weight: 400;
+    font-size: 21px;
+}
+
+/*h5*/
+@font-face {
+    font-family: 'Guardian Egyptian';
+    src: url('../../public/fonts/Guardian\ Egyptian/GUARDIANTEXTEGYPT-MEDIUM.woff2') format('woff2');
+    font-weight: 400;
+    font-size: 12px;
+}
+
+/*p*/
+@font-face {
+    font-family: 'Guardian Egyptian';
+    src: url('../../public/fonts/Guardian\ Egyptian/GUARDIANTEXTEGYPT-MEDIUM.woff2') format('woff2');
+    font-weight: 400;
+    font-size: 16px;
+}
+
+/*small*/
+@font-face {
+    font-family: 'Guardian Egyptian';
+    src: url('../../public/fonts/Guardian\ Egyptian/GUARDIANTEXTEGYPT-MEDIUM.woff2') format('woff2');
+    font-weight: 400;
+    font-size: 12px;
+}
+
+/*FOR MINI-ARTICLES (HOMEPAGE): Guardian Egyptian Text Regular*/
+/*h1*/
+@font-face {
+    font-family: 'Guardian Egyptian';
+    src: url('../../public/fonts/Guardian\ Egyptian/GUARDIANTEXTEGYPT-REGULAR.woff2') format('woff2');
+    font-weight: 400;
+    font-size: 50px;
+}
+
+/*h2*/
+@font-face {
+    font-family: 'Guardian Egyptian';
+    src: url('../../public/fonts/Guardian\ Egyptian/GUARDIANTEXTEGYPT-REGULAR.woff2') format('woff2');
+    font-weight: 400;
+    font-size: 38px;
+}
+
+/*h3*/
+@font-face {
+    font-family: 'Guardian Egyptian';
+    src: url('../../public/fonts/Guardian\ Egyptian/GUARDIANTEXTEGYPT-REGULAR.woff2') format('woff2');
+    font-weight: 400;
+    font-size: 28px;
+}
+
+/*h4*/
+@font-face {
+    font-family: 'Guardian Egyptian';
+    src: url('../../public/fonts/Guardian\ Egyptian/GUARDIANTEXTEGYPT-REGULAR.woff2') format('woff2');
+    font-weight: 400;
+    font-size: 21px;
+}
+
+/*h5*/
+@font-face {
+    font-family: 'Guardian Egyptian';
+    src: url('../../public/fonts/Guardian\ Egyptian/GUARDIANTEXTEGYPT-REGULAR.woff2') format('woff2');
+    font-weight: 400;
+    font-size: 12px;
+}
+
+/*p*/
+@font-face {
+    font-family: 'Guardian Egyptian';
+    src: url('../../public/fonts/Guardian\ Egyptian/GUARDIANTEXTEGYPT-REGULAR.woff2') format('woff2');
+    font-weight: 400;
+    font-size: 16px;
+}
+
+/*small*/
+@font-face {
+    font-family: 'Guardian Egyptian';
+    src: url('../../public/fonts/Guardian\ Egyptian/GUARDIANTEXTEGYPT-REGULAR.woff2') format('woff2');
+    font-weight: 400;
+    font-size: 12px;
+}

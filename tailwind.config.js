@@ -104,7 +104,25 @@ module.exports = {
       animation: {
         'accordion-down': 'accordion-down 0.2s ease-out',
         'accordion-up': 'accordion-up 0.2s ease-out'
-      }
+      },
+      fontFamily: {
+        'acronym': ['Acronym', 'sans-serif'],
+        'guardian': ['Guardian Egyptian', 'sans-serif']
+      },
+      fontSize: {
+        '50': '50px',
+        '38': '38px',
+        '28': '28px',
+        '21': '21px',
+        '16': '16px',
+        '14': '14px',
+        '12': '12px'
+      },
+      fontWeight: {
+        'bold': 700,
+        'medium': 600,
+        'regular': 400
+      },
     }
   },
   plugins: [require('tailwindcss-animate')]
