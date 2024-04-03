@@ -16,7 +16,7 @@ const DesktopHeader = () => {
 
   return (
     <header className="hidden md:block">
-      <div className="flex flex-col items-center bg-gradient-to-r from-red-700 via-red-600 to-red-800 p-2">
+      <div className="flex flex-col items-center bg-gradient-to-r from-red-900 via-red-600 to-red-900 p-2">
         {/* Overlay for grid pattern
         <div className="absolute inset-0 bg-[linear-gradient(to_bottom,rgba(255,255,255,0.2)_1px,transparent_1px),linear-gradient(to_right,rgba(255,255,255,0.2)_1px,transparent_1px)] bg-[length:32px_32px] [mask-image:radial-gradient(ellipse_50%_50%_at_100%_0%,#000_0%,transparent_40%)]"></div> */}
 
@@ -36,11 +36,11 @@ const DesktopHeader = () => {
             </Link>
           ))}
 
-          <div className="flex items-center bg-white border-2 border-black rounded-full p-2 ml-4">
+          <div className="flex items-center bg-white border-1 border-black rounded-full p-2 ml-4">
             <input
               type="text"
               placeholder="Search"
-              className="bg-transparent text-black font-bold placeholder-black focus:outline-none"
+              className="bg-transparent text-black font-bold placeholder-black focus:outline-none pl-1"
             />
             <IoSearchSharp className="ml-2" />
           </div>
