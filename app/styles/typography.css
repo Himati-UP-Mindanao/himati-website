@@ -1,0 +1,95 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'Acronym';
+    src: url('../../public/fonts/Acronym/ACRONYM\ THIN.woff2') format('woff2');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Acronym';
+    src: url('../../public/fonts/Acronym/ACRONYM\ ULTRALIGHT.woff2') format('woff2');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Acronym';
+    src: url('../../public/fonts/Acronym/ACRONYM\ LIGHT.woff2') format('woff2');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Acronym';
+    src: url('../../public/fonts/Acronym/ACRONYM\ REGULAR.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+}
+
+/*no medium*/
+
+@font-face {
+    font-family: 'Acronym';
+    src: url('../../public/fonts/Acronym/ACRONYM\ SEMIBOLD.woff2') format('woff2');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Acronym';
+    src: url('../../public/fonts/Acronym/ACRONYM\ BOLD.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Acronym';
+    src: url('../../public/fonts/Acronym/ACRONYM\ EXTRABOLD.woff2') format('woff2');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Acronym';
+    src: url('../../public/fonts/Acronym/ACRONYM\ BLACK.woff2') format('woff2');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@layer base {
+    * {
+        @apply font-Acronym text-base;
+    }
+
+    h1 {
+        @apply text-4xl sm:text-2xl md:text-5xl lg:text-6xl 2xl:text-[80px] font-bold;
+    }
+
+    h2 {
+        @apply text-3xl sm:text-xl md:text-4xl lg:text-5xl 2xl:text-[60px] font-bold;
+    }
+    
+    h3 {
+        @apply text-2xl sm:text-lg md:text-3xl lg:text-4xl 2xl:text-[40px] font-bold;
+    }
+    
+    h4 {
+        @apply text-xl sm:text-base md:text-2xl lg:text-3xl 2xl:text-[30px] font-bold;
+    }
+    
+    h5 {
+        @apply text-lg sm:text-sm md:text-xl lg:text-2xl 2xl:text-[24px] font-bold;
+    }
+    
+    h6 {
+        @apply text-base sm:text-xs md:text-lg lg:text-xl 2xl:text-[20px] font-bold;
+    }
+    
+    p {
+        @apply text-sm sm:text-xs md:text-base lg:text-md 2xl:text-lg;
+    }
+}
