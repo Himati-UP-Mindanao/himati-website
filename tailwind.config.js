@@ -12,6 +12,11 @@ module.exports = {
       }
     },
     extend: {
+      screens: {
+        desktop: '1080px',
+        tablet: '744px',
+        mobile: '414px'
+      },
       colors: {
         border: 'hsl(var(--border))',
         input: 'hsl(var(--input))',
