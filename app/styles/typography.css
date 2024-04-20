@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'Acronym';
+    src: url('./../assets/fonts/Acronym/ACRONYM\ BOLD.woff2') format('.woff2');
+    font-style: normal;
+    font-weight: 700;
+}
+
+@layer base {
+    * {
+        @apply font-acronym text-base;
+    }
+
+    h1 {
+        @apply text-2xl tablet:text-3xl desktop:text-4xl;
+    }
+
+    h2 {
+        @apply text-xl tablet:text-2xl desktop:text-3xl;
+    }
+
+    h3 {
+        @apply text-lg tablet:text-xl desktop:text-2xl;
+    }
+
+    p {
+        @apply text-lg tablet:text-xl desktop:text-2xl;
+    }
+
+    small {
+        @apply text-sm tablet:text-base desktop:text-lg;
+    }
+}
