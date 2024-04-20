@@ -1,0 +1,63 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'Acronym';
+    src: url('./../assets/fonts/Acronym/ACRONYM\ BOLD.woff2') format('.woff2');
+    font-style: normal;
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'Guardian Egyptian';
+    src: url('./../assets/fonts/Guardian\ Egyptian/GUARDIANTEXTEGYPT-REGULAR.woff2') format('.woff2');
+    font-style: normal;
+    font-weight: 400;
+}
+
+@layer base {
+    * {
+        @apply font-acronym text-base;
+    }
+
+    h1.acronym {
+        @apply text-2xl tablet:text-3xl desktop:text-4xl font-acronym;
+    }
+
+    h1.guardian {
+        @apply text-2xl tablet:text-3xl desktop:text-4xl font-guardian;
+    }
+
+    h2.acronym {
+        @apply text-xl tablet:text-2xl desktop:text-3xl font-acronym;
+    }
+
+    h2.guardian {
+        @apply text-xl tablet:text-2xl desktop:text-3xl font-guardian;
+    }
+
+    h3.acronym {
+        @apply text-lg tablet:text-xl desktop:text-2xl font-acronym;
+    }
+
+    h3.guardian {
+        @apply text-lg tablet:text-xl desktop:text-2xl font-guardian;
+    }
+
+    p.acronym {
+        @apply text-lg tablet:text-xl desktop:text-2xl font-acronym;
+    }
+
+    p.guardian {
+        @apply  text-lg tablet:text-xl desktop:text-2xl font-guardian;
+    }
+
+    small.acronym {
+        @apply text-sm tablet:text-base desktop:text-lg font-acronym;
+    }
+
+    small.guardian {
+        @apply text-sm tablet:text-base desktop:text-lg font-guardian;
+    }
+}
