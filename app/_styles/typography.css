@@ -4,14 +4,14 @@
 
 @font-face {
     font-family: 'Acronym';
-    src: url('./../assets/fonts/Acronym/ACRONYM\ BOLD.woff2') format('.woff2');
+    src: url('./../_assets/fonts/Acronym/ACRONYM\ BOLD.woff2') format('.woff2');
     font-style: normal;
     font-weight: 700;
 }
 
 @font-face {
     font-family: 'Guardian Egyptian';
-    src: url('./../assets/fonts/Guardian\ Egyptian/GUARDIANTEXTEGYPT-REGULAR.woff2') format('.woff2');
+    src: url('./../_assets/fonts/Guardian\ Egyptian/GUARDIANTEXTEGYPT-REGULAR.woff2') format('.woff2');
     font-style: normal;
     font-weight: 400;
 }

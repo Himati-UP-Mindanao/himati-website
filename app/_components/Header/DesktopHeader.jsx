@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import HimatiIcon from "../../assets/himati-icon.svg";
+import HimatiIcon from "@/_assets/himati-icon.svg";
 import { IoSearchSharp } from "react-icons/io5";
 import Link from "next/link";
 
