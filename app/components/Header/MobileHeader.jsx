@@ -5,7 +5,7 @@ import Image from "next/image";
 import { FiSearch } from "react-icons/fi";
 const MobileHeader = () => {
   return (
-    <header className="md:hidden">
+    <header className="md:hidden font-acronym">
       <div className="flex flex-col items-center bg-gradient-to-r from-red-900 via-red-600 to-red-900 p-2">
         <div className="flex flex-row gap-24 items-center">
           <IoMenu className="text-xl font-semibold text-white w-5 h-5" />
