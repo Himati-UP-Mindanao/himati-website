@@ -8,14 +8,14 @@ module.exports = {
       center: true,
       padding: '2rem',
       screens: {
-        '2xl': '1400px'
-      }
+        '2xl': '1400px',
+      },
     },
     extend: {
       screens: {
         desktop: '1080px',
         tablet: '744px',
-        mobile: '414px'
+        mobile: '414px',
       },
       colors: {
         border: 'hsl(var(--border))',
@@ -25,31 +25,31 @@ module.exports = {
         foreground: 'hsl(var(--foreground))',
         primary: {
           DEFAULT: 'hsl(var(--primary))',
-          foreground: 'hsl(var(--primary-foreground))'
+          foreground: 'hsl(var(--primary-foreground))',
         },
         secondary: {
           DEFAULT: 'hsl(var(--secondary))',
-          foreground: 'hsl(var(--secondary-foreground))'
+          foreground: 'hsl(var(--secondary-foreground))',
         },
         destructive: {
           DEFAULT: 'hsl(var(--destructive))',
-          foreground: 'hsl(var(--destructive-foreground))'
+          foreground: 'hsl(var(--destructive-foreground))',
         },
         muted: {
           DEFAULT: 'hsl(var(--muted))',
-          foreground: 'hsl(var(--muted-foreground))'
+          foreground: 'hsl(var(--muted-foreground))',
         },
         accent: {
           DEFAULT: 'hsl(var(--accent))',
-          foreground: 'hsl(var(--accent-foreground))'
+          foreground: 'hsl(var(--accent-foreground))',
         },
         popover: {
           DEFAULT: 'hsl(var(--popover))',
-          foreground: 'hsl(var(--popover-foreground))'
+          foreground: 'hsl(var(--popover-foreground))',
         },
         card: {
           DEFAULT: 'hsl(var(--card))',
-          foreground: 'hsl(var(--card-foreground))'
+          foreground: 'hsl(var(--card-foreground))',
         },
         neutral: {
           50: 'hsl(var(--neutral-50))',
@@ -62,7 +62,7 @@ module.exports = {
           700: 'hsl(var(--neutral-700))',
           800: 'hsl(var(--neutral-800))',
           900: 'hsl(var(--neutral-900))',
-          950: 'hsl(var(--neutral-950))'
+          950: 'hsl(var(--neutral-950))',
         },
         warming: {
           50: 'hsl(var(--warming-50))',
@@ -75,7 +75,7 @@ module.exports = {
           700: 'hsl(var(--warming-700))',
           800: 'hsl(var(--warming-800))',
           900: 'hsl(var(--warming-900))',
-          950: 'hsl(var(--warming-950))'
+          950: 'hsl(var(--warming-950))',
         },
         negative: {
           50: 'hsl(var(--negative-50))',
@@ -88,44 +88,44 @@ module.exports = {
           700: 'hsl(var(--negative-700))',
           800: 'hsl(var(--negative-800))',
           900: 'hsl(var(--negative-900))',
-          950: 'hsl(var(--negative-950))'
-        }
+          950: 'hsl(var(--negative-950))',
+        },
       },
       borderRadius: {
         lg: 'var(--radius)',
         md: 'calc(var(--radius) - 2px)',
-        sm: 'calc(var(--radius) - 4px)'
+        sm: 'calc(var(--radius) - 4px)',
       },
       keyframes: {
         'accordion-down': {
           from: { height: '0' },
-          to: { height: 'var(--radix-accordion-content-height)' }
+          to: { height: 'var(--radix-accordion-content-height)' },
         },
         'accordion-up': {
           from: { height: 'var(--radix-accordion-content-height)' },
-          to: { height: '0' }
-        }
+          to: { height: '0' },
+        },
       },
       animation: {
         'accordion-down': 'accordion-down 0.2s ease-out',
-        'accordion-up': 'accordion-up 0.2s ease-out'
+        'accordion-up': 'accordion-up 0.2s ease-out',
       },
       fontFamily: {
-        'acronym': ['var(--font-acronym)', 'sans-serif'],
-        'guardian': ['var(--font-guardian)', 'slab-serif']
+        acronym: ['var(--font-acronym)', 'sans-serif'],
+        guardian: ['var(--font-guardian)', 'slab-serif'],
       },
       fontSize: {
-        '4xl': ['2.25rem', { lineHeight: '2.5rem' }], 
-        '3xl': ['1.875rem', { lineHeight: '2.25rem' }], 
-        '2xl': ['1.5rem', { lineHeight: '2rem' }], 
-        'xl': ['1.25rem', { lineHeight: '1.75rem' }], 
-        'lg': ['1.125rem', { lineHeight: '1.75rem' }], 
-        'md': ['1rem', { lineHeight: '1.5rem' }],
-        'base': ['1rem', { lineHeight: '1.5rem' }],
-        'sm': ['0.875rem', { lineHeight: '1.25rem' }], 
-        'xs': ['0.75rem', { lineHeight: '1rem' }],
-      }
-    }
+        '4xl': ['2.25rem', { lineHeight: '2.5rem' }],
+        '3xl': ['1.875rem', { lineHeight: '2.25rem' }],
+        '2xl': ['1.5rem', { lineHeight: '2rem' }],
+        xl: ['1.25rem', { lineHeight: '1.75rem' }],
+        lg: ['1.125rem', { lineHeight: '1.75rem' }],
+        md: ['1rem', { lineHeight: '1.5rem' }],
+        base: ['1rem', { lineHeight: '1.5rem' }],
+        sm: ['0.875rem', { lineHeight: '1.25rem' }],
+        xs: ['0.75rem', { lineHeight: '1rem' }],
+      },
+    },
   },
-  plugins: [require('tailwindcss-animate')]
+  plugins: [require('tailwindcss-animate')],
 };
