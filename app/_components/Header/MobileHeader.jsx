@@ -1,6 +1,6 @@
 import React from "react";
 import { IoMenu } from "react-icons/io5";
-import HimatiIcon from "../../assets/himati-icon.svg";
+import HimatiIcon from "@/_assets/himati-icon.svg";
 import Image from "next/image";
 import { FiSearch } from "react-icons/fi";
 const MobileHeader = () => {
