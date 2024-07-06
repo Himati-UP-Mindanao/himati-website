@@ -5,24 +5,24 @@ export const acronym = localFont({
     {
       path: '../assets/fonts/Acronym/ACRONYM BOLD.woff2',
       weight: '700',
-      style: 'normal'
-    }
+      style: 'normal',
+    },
   ],
-  variable: '--font-acronym'
-})
+  variable: '--font-acronym',
+});
 
 export const guardian = localFont({
   src: [
     {
       path: '../assets/fonts/Guardian Egyptian/GUARDIANTEXTEGYPT-MEDIUM.woff2',
       weight: '500',
-      style: 'normal'
+      style: 'normal',
     },
     {
       path: '../assets/fonts/Guardian Egyptian/GUARDIANTEXTEGYPT-REGULAR.woff2',
       weight: '400',
-      style: 'normal'
-    }
+      style: 'normal',
+    },
   ],
-  variable: '--font-guardian'
-})
+  variable: '--font-guardian',
+});
