@@ -15,7 +15,7 @@ const DesktopHeader = () => {
   ];
 
   return (
-    <header className="hidden md:block">
+    <header className="hidden md:block font-acronym">
       <div className="flex flex-col items-center bg-gradient-to-r from-red-900 via-red-600 to-red-900 p-2">
         {/* Overlay for grid pattern
         <div className="absolute inset-0 bg-[linear-gradient(to_bottom,rgba(255,255,255,0.2)_1px,transparent_1px),linear-gradient(to_right,rgba(255,255,255,0.2)_1px,transparent_1px)] bg-[length:32px_32px] [mask-image:radial-gradient(ellipse_50%_50%_at_100%_0%,#000_0%,transparent_40%)]"></div> */}

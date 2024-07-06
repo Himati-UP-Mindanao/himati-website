@@ -11,7 +11,7 @@ const MobileHeader = () => {
           <IoMenu className="text-xl font-semibold text-white w-5 h-5" />
           <div className="flex flex-row items-center">
             <Image src={HimatiIcon} alt="Himati Icon" className="w-14 h-14" />
-            <h1 className="text-xl font-semibold text-white">HIMATI</h1>
+            <h1 className="text-xl font-acronym font-semibold text-white">HIMATI</h1>
           </div>
           <FiSearch className="text-xl font-semibold text-white w-5 h-5" />
         </div>
