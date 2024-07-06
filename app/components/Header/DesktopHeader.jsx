@@ -1,8 +1,10 @@
 import React from 'react';
-import Image from 'next/image';
-import HimatiIcon from '../../assets/himati-icon.svg';
 import { IoSearchSharp } from 'react-icons/io5';
+
+import Image from 'next/image';
 import Link from 'next/link';
+
+import HimatiIcon from '../../assets/himati-icon.svg';
 
 const DesktopHeader = () => {
   const navLinks = [

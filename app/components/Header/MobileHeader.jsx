@@ -1,8 +1,11 @@
 import React from 'react';
-import { IoMenu } from 'react-icons/io5';
-import HimatiIcon from '../../assets/himati-icon.svg';
-import Image from 'next/image';
 import { FiSearch } from 'react-icons/fi';
+import { IoMenu } from 'react-icons/io5';
+
+import Image from 'next/image';
+
+import HimatiIcon from '../../assets/himati-icon.svg';
+
 const MobileHeader = () => {
   return (
     <header className="font-acronym md:hidden">
