@@ -1,4 +1,5 @@
-import Header from "./_components/Header/Header";
+import Image from "next/image";
+import Header from "./components/Header/Header";
 
 export default function Home() {
   return (
