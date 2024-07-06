@@ -1,7 +1,6 @@
-import { Inter } from "next/font/google";
-import "@/styles/global.css";
+import "./styles/global.css";
+import { acronym, guardian } from "./styles/typography";
 
-const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   title: "Create Next App",
@@ -11,7 +10,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={`${acronym.variable} ${guardian.variable} font-guardian`}>{children}</body>
     </html>
   );
 }

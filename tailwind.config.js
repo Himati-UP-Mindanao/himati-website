@@ -111,8 +111,8 @@ module.exports = {
         'accordion-up': 'accordion-up 0.2s ease-out'
       },
       fontFamily: {
-        'acronym': ['Acronym', 'sans-serif'],
-        'guardian': ['Guardian Egyptian', 'slab-serif']
+        'acronym': ['var(--font-acronym)', 'sans-serif'],
+        'guardian': ['var(--font-guardian)', 'slab-serif']
       },
       fontSize: {
         '4xl': ['2.25rem', { lineHeight: '2.5rem' }], 
