@@ -4,7 +4,7 @@ import { IoMenu } from 'react-icons/io5';
 
 import Image from 'next/image';
 
-import HimatiIcon from '../../assets/himati-icon.svg';
+import HimatiIcon from '@assets/himati-icon.svg';
 
 const MobileHeader = () => {
   return (
